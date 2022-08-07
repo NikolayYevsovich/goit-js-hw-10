@@ -18,3 +18,50 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+img {
+  width: 40px;
+  margin-right: 4px;
+}
+
+
+.main-string{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+input{
+  outline: 1px solid blue;
+  border-radius: 5;
+  width: 250px;
+}
+div{
+  padding: 0px
+}
+
+
+.hide{
+  display: none;
+}
+li{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.category{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
