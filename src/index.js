@@ -19,6 +19,9 @@ refs.inputEl.addEventListener(
 function countryInput(e) {
   clearContent();
   const countryName = e.target.value.trim();
+  if (countryName === '') {
+    return;
+  }
   fetchCountries(countryName)
     .then(r => renderMarkup(r))
     .catch(errorNotify);
